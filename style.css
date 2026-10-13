@@ -1,0 +1,117 @@
+body{
+
+    margin:0px;
+    background-color: lavenderblush;
+}
+
+a{
+    text-decoration:none;
+    color:black;
+}
+
+li{
+    display: block;
+}
+
+
+nav{
+
+    height: 100vh;
+    position: fixed;
+    width:230px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large ;
+    border:2px solid rgb(199, 194, 198);
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 0px;
+    margin-left: 0px;
+
+}
+
+.page{
+
+    margin-left: 250px;
+    padding: 20px;
+    
+    
+
+}
+.row{
+    display:flex;
+    height:450px;
+    
+    
+}
+
+.today{
+
+    border:3px solid rgb(199, 194, 198);
+    background-color: rgb(127, 255, 178);
+    width: 50%;
+    border-radius: 25px;
+    padding-right: 20px;
+    padding: 10px;
+    margin: 20px;
+
+}
+
+.donut{
+
+    border:3px solid rgb(199, 194, 198);
+    background-color: seashell ;
+    width: 50%;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 20px;
+
+}
+
+.graph{
+
+   border:3px solid rgb(199, 194, 198);
+   background-color: rgb(245, 250, 255);
+   border-radius: 25px;
+   height: 300px;
+   padding: 10px;
+   margin: 20px;
+
+}
+
+.list{
+
+    border:3px solid rgb(199, 194, 198);
+    background-color: rgb(253, 211, 122);
+    border-radius: 25px;
+    padding: 10px;
+    margin: 20px;
+    height: 300px;
+
+}
+
+.add{
+
+    border:1px solid rgb(199, 194, 198);
+    
+    background-color: rgb(178, 96, 255);
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: xx-large;
+    position: fix;
+    
+}
+
+button{
+    border: none;
+    outline: none;
+    
+    background: transparent;
+}
