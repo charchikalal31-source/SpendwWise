@@ -29,6 +29,27 @@ nav{
 
 }
 
+#sidebar{
+    position: fixed;
+    top: 0;
+    left:0;
+    height: 100vh;
+    width:220px;
+    transition: transform 0.3s ease;
+}
+
+#sidebar-closed{
+    transform: translateX(-100%);
+}
+
+#menuToggle{
+    position: fixed;
+    top:15px;
+    left:15px;
+    z-index:1000;
+    cursor:pointer;
+}
+
 .page{
 
     margin-left: 250px;
@@ -39,16 +60,16 @@ nav{
 }
 .row{
     display:flex;
-    height:450px;
+    height:400px;
     
     
 }
 
-.today{
+.welcome{
 
-    border:3px solid rgb(199, 194, 198);
-    background-color: rgb(127, 255, 178);
-    width: 50%;
+    border:1px solid rgb(199, 194, 198);
+    background-color: rgb(242, 242, 207);
+    width: 75%;
     border-radius: 25px;
     padding-right: 20px;
     padding: 10px;
@@ -60,11 +81,17 @@ nav{
 
     border:3px solid rgb(199, 194, 198);
     background-color: seashell ;
-    width: 50%;
+    width: 25%;
     border-radius: 25px;
     padding: 10px;
     margin: 20px;
+    box-sizing: border-box;
 
+}
+
+#pie{
+    max-width: 250px;
+    max-height: 250px;
 }
 
 .graph{
@@ -75,8 +102,15 @@ nav{
    height: 300px;
    padding: 10px;
    margin: 20px;
-
+  
+   box-sizing: border-box;
 }
+
+#linegraph{
+    width: 100% !important;
+    height:200px !important;
+}
+
 
 .list{
 
